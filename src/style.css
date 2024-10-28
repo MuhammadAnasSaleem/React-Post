@@ -6,9 +6,9 @@
 }
 /* navbar */
 .navBar {
-  position: fixed;
+  /* position: fixed;
   top: 0;
-  width: 100%;
+  width: 100%; */
   background-color: #1877f2;
   display: flex;
   align-items: center;
@@ -33,13 +33,34 @@
   color: #ffffff;
 }
 /* navbar */
+.userImage {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
 .post {
-  margin-top: 200px;
+  border: 1px solid blue;
+  width: 800px;
+  margin-top: 40px;
+  padding: 20px;
+}
+.hero {
   display: flex;
   justify-content: center;
 }
-.userImage {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
+.postTop {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.postBottom {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.postImage {
+  width: 700px;
+  height: 400px;
 }
